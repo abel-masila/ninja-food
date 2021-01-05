@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
   "dependencies": {
+    "autoprefixer": "^10.1.0",
     "tailwindcss": "^2.0.2"
   }
 }
