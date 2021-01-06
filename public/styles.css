@@ -31728,6 +31728,20 @@ video {
   text-transform: uppercase;
 }
 
+.btn {
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
